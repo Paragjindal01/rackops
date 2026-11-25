@@ -1,6 +1,8 @@
 # RackOps
 
-[Conceptual cover artwork](../artwork/rackops.webp)
+> This case study documents the integrated portfolio build. Use the [standalone README](../../README.md#run-independently) for this repository’s entry point and test commands.
+
+[Conceptual cover artwork](../artwork.webp)
 
 RackOps is a digital twin for fictional data centres. Choose a facility room, select a rack from the floor plan, and inspect equipment from the front and rear in a rotatable 3D rack. The rear includes vertical PDU strips with individually identified outlet states. The inventory supports type and health filters and search across all simulated facilities. Rack space assessment shows occupied and contiguous free units. Selecting a PDU and opening **Power dependencies** traces outlets to devices and their guest workloads. Outlet links open PowerOps at the same scenario and simulator step. Rack alerts include individually identified GPUs.
 
